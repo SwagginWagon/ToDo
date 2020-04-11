@@ -1,0 +1,19 @@
+html, body { margin: 0; padding: 0; height: 100%; }
+html { font-size: 62.5%; }
+body { background-color: #41b6e6; font-size: 1.6rem; }
+
+.login-section { display: flex; width: 100%; justify-content: flex-end; }
+.login-section p { margin: 1em; }
+.login-section p a { color: white; }
+
+main, main .container, main .row { height: 100%; }
+main .container .row { align-items: center; justify-content: center; }
+.to-do-list-container, .register-container { width: 50%; height: auto; background-color: white; border-radius: 25px; display: flex; flex-direction: column; align-items: center; padding: 3em; }
+.to-do-list-container h1, .register-container h1 { padding-bottom: 1em; }
+.to-do-list-container .tasks { width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.to-do-list-container .add-task { display: flex; }
+.to-do-list-container .add-task a { margin-left: 1em; }
+
+.login-form, .register-form { display: flex; flex-direction: column; }
+
+.login-form .btn-primary, .register-form .btn-primary { width: 50%; margin: 1em auto; }
